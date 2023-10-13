@@ -1,7 +1,9 @@
-# Laravel 9 Boilerplate with Design Pattern
+# Laravel Boilerplate with Design Pattern
+
 > A Laravel Boilerplate with Service Design Pattern and Sanctum
 
 ## Setup Project
+
 Make a copy of `.env` using the file `env.example` and then add your MySQL database credentials to establish a connection.
 
 ```
@@ -13,10 +15,10 @@ DB_USERNAME=<database username>
 DB_PASSWORD=<database password>
 ```
 
-
 After setting up the `.env` run the following commands:
+
 ```bash
-# Install package dependencies 
+# Install package dependencies
 $ composer install
 
 # Generate the APP_KEY
@@ -37,37 +39,27 @@ $ php artisan migrate:fresh --seed
 $ php artisan serve
 ```
 
-## Understanding the repository
-|Branch      	        |Description                            |
-|:---------------------:|:-------------------------------------:|
-|`repository_sanctum`   |Repository Design Pattern with Sanctum |
-|`repository`           |Repository Design Pattern              |
-|`service`              |Services Design Pattern                |
-|`service_sanctum`      |Services Design Pattern with Sanctum   |
+## Commits
 
-## Commits 
 To be able for us to easily track our repository progress please use appropriate emojis at the start of description/message and issue-number at the end to determine type of commit.
 
-| Illustration              | Code                          | Description                                   |
-|:-------------------------:|:-----------------------------:|:---------------------------------------------:|
-|:100:                      |`:100:`                        |Functions, routes, migrations etc.             |
-|:wrench:                   |`:wrench:`                     |Add Some Code, Improve Code Structure or Format|
-|:bug:                      |`:bug:`                        |Bug Fixed                                      |
-|:bookmark_tabs:            |`:bookmark_tabs:`              |Add or Edit Comments in your code              |
-|:coffee:                   |`:coffee:`                     |Initial or Non-important changes               |
-|:construction:             |`:construction:`               |Work in Progress                               |
-|:wastebasket:              |`:wastebasket:`                |Remove Code and Files                          |
-|:notebook:                 |`:notebook:`                   |Documentation and ReadMe                       |
-|:pencil2:                  |`:pencil2:`                    |Fix Typos, Rename Files, Routes etc            |
-|:recycle:                  |`:recycle:`                    |Refactor Code                                  |
-|:twisted_rightwards_arrows:|`:twisted_rightwards_arrows:`  |Merge Branches                                 |
-|:rewind:                   |`:rewind:`                     |Revert Changes                                 |
-|:iphone:                   |`:iphone:`                     |Work on Responsive Design                      |
-|:pushpin:                  |`:pushpin:`                    |Hotfix                                         |
-|:hash:                     |`#100`                         |Issue number                                   |
-|(version-tag)              |`(v1.2.3-alpha)`               |Hotfix commits Version Tag                     |
-
-
+|        Illustration         |             Code              |                   Description                   |
+| :-------------------------: | :---------------------------: | :---------------------------------------------: |
+|            :100:            |            `:100:`            |       Functions, routes, migrations etc.        |
+|          :wrench:           |          `:wrench:`           | Add Some Code, Improve Code Structure or Format |
+|            :bug:            |            `:bug:`            |                    Bug Fixed                    |
+|       :bookmark_tabs:       |       `:bookmark_tabs:`       |        Add or Edit Comments in your code        |
+|          :coffee:           |          `:coffee:`           |        Initial or Non-important changes         |
+|       :construction:        |       `:construction:`        |                Work in Progress                 |
+|        :wastebasket:        |        `:wastebasket:`        |              Remove Code and Files              |
+|         :notebook:          |         `:notebook:`          |            Documentation and ReadMe             |
+|          :pencil2:          |          `:pencil2:`          |       Fix Typos, Rename Files, Routes etc       |
+|          :recycle:          |          `:recycle:`          |                  Refactor Code                  |
+| :twisted_rightwards_arrows: | `:twisted_rightwards_arrows:` |                 Merge Branches                  |
+|          :rewind:           |          `:rewind:`           |                 Revert Changes                  |
+|          :iphone:           |          `:iphone:`           |            Work on Responsive Design            |
+|          :pushpin:          |          `:pushpin:`          |                     Hotfix                      |
+|           :hash:            |            `#100`             |                  Issue number                   |
 
 ## License
 
